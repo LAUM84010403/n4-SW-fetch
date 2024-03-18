@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations sur un pays</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Informations sur un pays</h1>
+    <label for="nomPays">Entrez le nom d'un pays en français :</label>
+    <input type="text" id="nomPays" placeholder="Nom du pays">
+    <button id="Btn">Obtenir les informations</button>
+
+    <div id="infoPays" class="hidden">
+        <h2 id="nomPays"></h2>
+        <img id="drapeau" src="" alt="Drapeau du pays">
+        <p><strong>Capitale :</strong> <span id="capital"></span></p>
+        <p><strong>Population :</strong> <span id="pop"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
